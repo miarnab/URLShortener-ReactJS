@@ -16,7 +16,7 @@ const UrlInput = () => {
     fetch('https://api-ssl.bitly.com/v4/shorten', {
       method: 'POST',
       headers: {
-          'Authorization': 'Bearer cfbee442e2646d1da5d87452bd432f6d579605b1',
+          'Authorization': 'cfbee442e2646d1da5d87452bd432f6d579605b1',
           'Content-Type': 'application/json',
       },
       body: JSON.stringify({ "long_url": input, "domain": "bit.ly"})
